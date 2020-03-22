@@ -1,0 +1,19 @@
+<ion-header>
+  <meu-cabecalho>
+  </meu-cabecalho>
+</ion-header>
+
+  <ion-content padding>
+  <div class='center'>
+    ETAPA 1: Escreva uma mensagem utilizando o alfabeto abaixo.
+    <ion-card>
+      <img src="assets/imgs/alfabeto-numero.png">
+      <ion-card-header>
+        ESSE ALFABETO POSSUI 32 CARACTERES
+      </ion-card-header>
+    </ion-card>
+    MENSAGEM ORIGINAL
+    <ion-input type="text" placeholder="Digite aqui sua mensagem" [(ngModel)]="inputMensagem"></ion-input>
+    <button ion-button outline (click)="avancaCripto02()">Proxima etapa</button>
+  </div>
+</ion-content>

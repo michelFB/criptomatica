@@ -1,0 +1,34 @@
+<ion-header>
+  <meu-cabecalho>
+  </meu-cabecalho>
+</ion-header>
+
+<ion-content padding>
+  <div class='center'>
+    ETAPA 3: Substituindo a letra pelo seu respectivo valor numerico.
+    <ion-card>
+      <img src="assets/imgs/alfabeto-numero.png">
+      <ion-card-header>
+        PARA CADA LETRA UM NUMERO CORRESPONDENTE
+      </ion-card-header>
+    </ion-card>
+
+    
+    <ion-grid>
+      <ion-row *ngFor="let linha of [0,1]">
+        <ion-col *ngFor="let colunas of this.matrizMensagemOriginal.elemento, let coluna=index">
+          <ion-row>
+            <ion-label>{{this.matrizMensagemOriginal.elemento[coluna][linha]}} </ion-label>
+          </ion-row>
+          <ion-row class='center'>
+          <ion-input type="number" placeholder="a({{coluna}},{{linha}})" [(ngModel)]="this.inputMatMensOri.elemento[coluna][linha]">
+          </ion-input>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <button ion-button outline round (click)="validarMatriz()">Validar Resposta</button>
+    <button ion-button outline (click)="avancaCripto04()">Proxima etapa</button>
+  </div>
+</ion-content>

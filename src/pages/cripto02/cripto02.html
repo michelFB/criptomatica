@@ -1,0 +1,44 @@
+<ion-header>
+  <meu-cabecalho>
+  </meu-cabecalho>
+</ion-header>
+
+<ion-content padding>
+  <div class='center'>
+    ETAPA 2: Insira a matriz Chave pública que será utilizada para criptografar a mensagem:.
+       
+    <ion-grid padding>
+      <ion-row *ngFor="let linha of [0,1]">
+        <ion-col *ngFor="let coluna of [0,1]">
+          <ion-row class='center'>
+          <ion-input type="number" placeholder="a({{coluna}},{{linha}})" 
+          [(ngModel)]="this.inputMatrizChave.elemento[coluna][linha]"></ion-input>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+   
+    
+    <button ion-button outline round (click)="validarMatrizchave()">Validar</button>
+
+    <ion-item  *ngIf="flagDeterminante">
+      <ion-label>Determinante:</ion-label>
+      <ion-input type="text" [(ngModel)]="inputDeterminante"></ion-input>
+      <button ion-button item-end round outline (click)="validarDeterminate()">Validar</button>
+      <button ion-button item-end round outline (click)="buttonClick()">
+        <ion-icon name="information-circle"></ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item *ngIf="flagCongruente">
+      <ion-label>Congruente da Det:</ion-label>
+      <ion-input type="text" [(ngModel)]=" inputCongruente"></ion-input>
+      <button ion-button item-end round outline (click)=" validarCongruente()">Validar</button>
+      <button ion-button item-end round outline (click)="buttonClick()">
+        <ion-icon name="information-circle"></ion-icon>
+      </button>
+    </ion-item>
+
+    <button ion-button outline *ngIf="flagAvancar" (click)=" avancaCripto03()">Proxima etapa</button>
+  </div>
+</ion-content>

@@ -1,0 +1,40 @@
+<ion-header>
+  <meu-cabecalho>
+  </meu-cabecalho>
+</ion-header>
+
+<ion-content padding>
+  <ion-fab right bottom>
+    <button ion-fab mini>
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </button>
+  </ion-fab>
+  <div class='center'>
+    ETAPA 1: Substitua valores numéericos pelas respectivas letras do alfabeto:
+    <ion-card>
+      <img src="assets/imgs/alfabeto-numero.png">
+      <ion-card-header>
+        PARA CADA NÚMERO UMA LETRA CORRESPONDENTE
+      </ion-card-header>
+    </ion-card>
+<ion-grid>
+  <ion-row>
+    <ion-col col-2>10</ion-col>
+    <ion-col col-2>10</ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col col-2>10</ion-col>
+    <ion-col col-2>10</ion-col>
+  </ion-row>
+</ion-grid>
+    <button ion-button outline round (click)="avancaCripto07()">Validar Resposta</button>
+    <ion-label>  A mensagem original é:  <!-- {{ product.name }} --> </ion-label>
+  <ion-label>  A mensagem cifrada é:  <!-- {{ product.name }} --> </ion-label>
+    <ion-input type="text" placeholder="Nome do arquivo:"></ion-input>
+  
+    <button ion-button  outline (click)="buttonClick()">SALVAR ARQUIVO</button>
+    <button ion-button outline (click)=" avancaInicio()">CONCLUIR</button>
+  
+
+  </div>
+</ion-content>

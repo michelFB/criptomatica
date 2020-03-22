@@ -1,0 +1,75 @@
+<ion-header>
+  <meu-cabecalho>
+  </meu-cabecalho>
+</ion-header>
+
+<ion-content padding>
+  <div class='center'>
+    ETAPA 1: Obtenha a mensagem criptofagada e a matriz chave pública, em seguida calcule o determinante da matriz inversa.
+
+    <!-- *************************************************************************** -->
+    <ion-card>
+      <ion-card-header>
+        Escolha um arquivo:
+      </ion-card-header>
+      <ion-item>
+        <ion-label>{{nome}}</ion-label>
+        <button ion-button item-end round outline (click)="buttonClick()">
+          <ion-icon name="search"></ion-icon>
+        </button>
+        <button ion-button item-end round outline (click)="buttonClick()">
+          <ion-icon name="trash"></ion-icon>
+        </button>
+      </ion-item>
+    </ion-card>
+
+    <!-- ********************************************************************************************* -->
+
+    A matriz chave Pública é:
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2>10</ion-col>
+        <ion-col col-2>10</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-2>10</ion-col>
+        <ion-col col-2>10</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-item>
+      <ion-label>A mensagem criptografada é:</ion-label>
+      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>
+    </ion-item>
+
+    <button ion-button outline round color="danger" (click)="avancaCripto02()">ESSCOLHA OUTRO ARQUIVO</button>
+
+    <ion-item>
+      <ion-label>Determinante:</ion-label>
+      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>
+      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>
+      <button ion-button item-end round outline (click)="buttonClick()">
+        <ion-icon name="information-circle"></ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Congruente:</ion-label>
+      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>
+      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>
+      <button ion-button item-end round outline (click)="buttonClick()">
+        <ion-icon name="information-circle"></ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Det. Matriz inversa:</ion-label>
+      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>
+      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>
+      <button ion-button item-end round outline (click)="buttonClick()">
+        <ion-icon name="information-circle"></ion-icon>
+      </button>
+    </ion-item>
+    <button ion-button outline (click)="avancaDecripto02()"> Proxima etapa</button>
+  </div>
+</ion-content>
