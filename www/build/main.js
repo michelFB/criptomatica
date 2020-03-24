@@ -49,8 +49,580 @@ var HillPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto04Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cripto05_cripto05__ = __webpack_require__(103);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Cripto04Page = /** @class */ (function () {
+    function Cripto04Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Cripto04Page.prototype.avancaCripto05 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__cripto05_cripto05__["a" /* Cripto05Page */]);
+    };
+    Cripto04Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Cripto04Page');
+    };
+    Cripto04Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-cripto04',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto04\cripto04.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <div class=\'center\'>\n    Verifique como fica o formato da mensagem em uma matriz 2xn: Matriz de letras da mensagem original:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    Matriz Numérica da mensagem original:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <button ion-button outline (click)="avancaCripto05()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto04\cripto04.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], Cripto04Page);
+    return Cripto04Page;
+}());
+
+//# sourceMappingURL=cripto04.js.map
+
+/***/ }),
+
+/***/ 103:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto05Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cripto06_cripto06__ = __webpack_require__(104);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the Cripto05Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Cripto05Page = /** @class */ (function () {
+    function Cripto05Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Cripto05Page.prototype.avancaCripto06 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__cripto06_cripto06__["a" /* Cripto06Page */]);
+    };
+    Cripto05Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Cripto05Page');
+    };
+    Cripto05Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-cripto05',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto05\cripto05.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon></button>\n  </ion-fab>\n\n  <div class=\'center\'>\n     ETAPA 4: Calcule o produto da matriz chave oela matriz da mensagem Original.\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    Matriz Numérica da mensagem original:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n  <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n  <button ion-button outline (click)="avancaCripto06()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto05\cripto05.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], Cripto05Page);
+    return Cripto05Page;
+}());
+
+//# sourceMappingURL=cripto05.js.map
+
+/***/ }),
+
+/***/ 104:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto06Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cripto07_cripto07__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Cripto06Page = /** @class */ (function () {
+    function Cripto06Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Cripto06Page.prototype.avancaCripto07 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__cripto07_cripto07__["a" /* Cripto07Page */]);
+    };
+    Cripto06Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Cripto06Page');
+    };
+    Cripto06Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-cripto06',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto06\cripto06.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 5: Calcule a matriz de congruentes da matriz produto na base 32.\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    A matriz produto congruente é:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto07()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaCripto07()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto06\cripto06.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+    ], Cripto06Page);
+    return Cripto06Page;
+}());
+
+//# sourceMappingURL=cripto06.js.map
+
+/***/ }),
+
+/***/ 105:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto07Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Cripto07Page = /** @class */ (function () {
+    function Cripto07Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Cripto07Page.prototype.avancaInicio = function () {
+        this.navCtrl.popToRoot();
+    };
+    Cripto07Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Cripto07Page');
+    };
+    Cripto07Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-cripto07',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto07\cripto07.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right bottom>\n    <button ion-fab mini>\n      <ion-icon name="logo-whatsapp"></ion-icon>\n    </button>\n  </ion-fab>\n  <div class=\'center\'>\n    ETAPA 1: Substitua valores numéericos pelas respectivas letras do alfabeto:\n    <ion-card>\n      <img src="assets/imgs/alfabeto-numero.png">\n      <ion-card-header>\n        PARA CADA NÚMERO UMA LETRA CORRESPONDENTE\n      </ion-card-header>\n    </ion-card>\n<ion-grid>\n  <ion-row>\n    <ion-col col-2>10</ion-col>\n    <ion-col col-2>10</ion-col>\n  </ion-row>\n  <ion-row>\n    <ion-col col-2>10</ion-col>\n    <ion-col col-2>10</ion-col>\n  </ion-row>\n</ion-grid>\n    <button ion-button outline round (click)="avancaCripto07()">Validar Resposta</button>\n    <ion-label>  A mensagem original é:  <!-- {{ product.name }} --> </ion-label>\n  <ion-label>  A mensagem cifrada é:  <!-- {{ product.name }} --> </ion-label>\n    <ion-input type="text" placeholder="Nome do arquivo:"></ion-input>\n  \n    <button ion-button  outline (click)="buttonClick()">SALVAR ARQUIVO</button>\n    <button ion-button outline (click)=" avancaInicio()">CONCLUIR</button>\n  \n\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto07\cripto07.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], Cripto07Page);
+    return Cripto07Page;
+}());
+
+//# sourceMappingURL=cripto07.js.map
+
+/***/ }),
+
+/***/ 106:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto01Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto02_decripto02__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Decripto01Page = /** @class */ (function () {
+    function Decripto01Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Decripto01Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Decripto01Page');
+    };
+    Decripto01Page.prototype.avancaDecripto02 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto02_decripto02__["a" /* Decripto02Page */]);
+    };
+    Decripto01Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-decripto01',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto01\decripto01.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <div class=\'center\'>\n    ETAPA 1: Obtenha a mensagem criptofagada e a matriz chave pública, em seguida calcule o determinante da matriz inversa.\n\n    <!-- *************************************************************************** -->\n    <ion-card>\n      <ion-card-header>\n        Escolha um arquivo:\n      </ion-card-header>\n      <ion-item>\n        <ion-label>{{nome}}</ion-label>\n        <button ion-button item-end round outline (click)="buttonClick()">\n          <ion-icon name="search"></ion-icon>\n        </button>\n        <button ion-button item-end round outline (click)="buttonClick()">\n          <ion-icon name="trash"></ion-icon>\n        </button>\n      </ion-item>\n    </ion-card>\n\n    <!-- ********************************************************************************************* -->\n\n    A matriz chave Pública é:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-item>\n      <ion-label>A mensagem criptografada é:</ion-label>\n      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>\n    </ion-item>\n\n    <button ion-button outline round color="danger" (click)="avancaCripto02()">ESSCOLHA OUTRO ARQUIVO</button>\n\n    <ion-item>\n      <ion-label>Determinante:</ion-label>\n      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>\n      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>\n      <button ion-button item-end round outline (click)="buttonClick()">\n        <ion-icon name="information-circle"></ion-icon>\n      </button>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Congruente:</ion-label>\n      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>\n      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>\n      <button ion-button item-end round outline (click)="buttonClick()">\n        <ion-icon name="information-circle"></ion-icon>\n      </button>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Det. Matriz inversa:</ion-label>\n      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>\n      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>\n      <button ion-button item-end round outline (click)="buttonClick()">\n        <ion-icon name="information-circle"></ion-icon>\n      </button>\n    </ion-item>\n    <button ion-button outline (click)="avancaDecripto02()"> Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto01\decripto01.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+    ], Decripto01Page);
+    return Decripto01Page;
+}());
+
+//# sourceMappingURL=decripto01.js.map
+
+/***/ }),
+
+/***/ 107:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto02Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto03_decripto03__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the Decripto02Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Decripto02Page = /** @class */ (function () {
+    function Decripto02Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Decripto02Page.prototype.avancaDecripto03 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto03_decripto03__["a" /* Decripto03Page */]);
+    };
+    Decripto02Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Decripto02Page');
+    };
+    Decripto02Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-decripto02',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto02\decripto02.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 2: CALCULANDO A CHAVE PRIVADA - Calcule a matriz de cofatores.\n    <ion-label>A matriz CHAVE PÚBLICA é:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>Insira a matriz de cofatores:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto03()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto02\decripto02.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+    ], Decripto02Page);
+    return Decripto02Page;
+}());
+
+//# sourceMappingURL=decripto02.js.map
+
+/***/ }),
+
+/***/ 108:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto03Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto04_decripto04__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the Decripto03Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Decripto03Page = /** @class */ (function () {
+    function Decripto03Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Decripto03Page.prototype.avancaDecripto04 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto04_decripto04__["a" /* Decripto04Page */]);
+    };
+    Decripto03Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Decripto03Page');
+    };
+    Decripto03Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-decripto03',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto03\decripto03.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 3: CALCULANDO A CHAVE PRIVADA -\n    <ion-label>Essa é a matriz de COFATORES:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>Insira a matriz de TRANSPOSTA:</ion-label>\n    <ion-label>Essa é a matriz Adjunta da matriz de Cofatores:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto04()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto03\decripto03.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+    ], Decripto03Page);
+    return Decripto03Page;
+}());
+
+//# sourceMappingURL=decripto03.js.map
+
+/***/ }),
+
+/***/ 109:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto04Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto05_decripto05__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the Decripto04Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Decripto04Page = /** @class */ (function () {
+    function Decripto04Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Decripto04Page.prototype.avancaDecripto05 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto05_decripto05__["a" /* Decripto05Page */]);
+    };
+    Decripto04Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Decripto04Page');
+    };
+    Decripto04Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-decripto04',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto04\decripto04.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 4: CALCULANDO A CHAVE PRIVADA -\n    <ion-label>Multiplique o determinante da inversa pela Matriz Adjunta:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>Calcule a Matriz CHAVE PRIVADA:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto05()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto04\decripto04.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+    ], Decripto04Page);
+    return Decripto04Page;
+}());
+
+//# sourceMappingURL=decripto04.js.map
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto05Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto06_decripto06__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the Decripto05Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Decripto05Page = /** @class */ (function () {
+    function Decripto05Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Decripto05Page.prototype.avancaDecripto06 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto06_decripto06__["a" /* Decripto06Page */]);
+    };
+    Decripto05Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Decripto05Page');
+    };
+    Decripto05Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-decripto05',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto05\decripto05.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 5: Calcule os coongruentes da matriz chave privada\n    <ion-label>MATRIZ CHAVE PRIVADA</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>insira a matriz CONGRUENTE:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto06()">Proxima etapa</button>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto05\decripto05.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+    ], Decripto05Page);
+    return Decripto05Page;
+}());
+
+//# sourceMappingURL=decripto05.js.map
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto06Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto07_decripto07__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the Decripto06Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Decripto06Page = /** @class */ (function () {
+    function Decripto06Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Decripto06Page.prototype.avancaDecripto07 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto07_decripto07__["a" /* Decripto07Page */]);
+    };
+    Decripto06Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Decripto06Page');
+    };
+    Decripto06Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-decripto06',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto06\decripto06.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 5.1: Multiplique a matriz chave privada pela matriz mensagem criptografada\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>A matriz DECIFRADA é:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto07()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto06\decripto06.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+    ], Decripto06Page);
+    return Decripto06Page;
+}());
+
+//# sourceMappingURL=decripto06.js.map
+
+/***/ }),
+
+/***/ 112:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto07Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto08_decripto08__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the Decripto07Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Decripto07Page = /** @class */ (function () {
+    function Decripto07Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Decripto07Page.prototype.avancaDecripto08 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto08_decripto08__["a" /* Decripto08Page */]);
+    };
+    Decripto07Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Decripto07Page');
+    };
+    Decripto07Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-decripto07',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto07\decripto07.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 6: Calcule os coongruentes da MATRIZ DECIFRADA\n    <ion-label>MATRIZ DECIFRADA</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>insira a matriz CONGRUENTE:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto08()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto07\decripto07.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+    ], Decripto07Page);
+    return Decripto07Page;
+}());
+
+//# sourceMappingURL=decripto07.js.map
+
+/***/ }),
+
+/***/ 113:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto08Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the Decripto08Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Decripto08Page = /** @class */ (function () {
+    function Decripto08Page(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Decripto08Page.prototype.avancaInicio = function () {
+        this.navCtrl.popToRoot();
+    };
+    Decripto08Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Decripto08Page');
+    };
+    Decripto08Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-decripto08',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto08\decripto08.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right bottom>\n    <button ion-fab mini>\n      <ion-icon name="logo-whatsapp"></ion-icon>\n    </button>\n  </ion-fab>\n  <div class=\'center\'>\n    ETAPA 7: Substitua valores numéericos pelas respectivas letras do alfabeto:\n    <ion-card>\n      <img src="assets/imgs/alfabeto-numero.png">\n      <ion-card-header>\n        PARA CADA NÚMERO UMA LETRA CORRESPONDENTE\n      </ion-card-header>\n    </ion-card>\n    A matriz de letras da mensagem DECIFRADA é:\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto07()">Validar Resposta</button>\n    <ion-label> A mensagem Cifrada foi:\n      <!-- {{ product.name }} -->\n    </ion-label>\n    <ion-label> A mensagem Decifrada:\n      <!-- {{ product.name }} -->\n    </ion-label>\n      <button ion-button outline (click)=" avancaInicio()">CONCLUIR</button>\n\n\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto08\decripto08.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], Decripto08Page);
+    return Decripto08Page;
+}());
+
+//# sourceMappingURL=decripto08.js.map
+
+/***/ }),
+
+/***/ 114:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto01Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cripto02_cripto02__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cripto02_cripto02__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_matriz__ = __webpack_require__(46);
@@ -98,7 +670,7 @@ var Cripto01Page = /** @class */ (function () {
     };
     Cripto01Page = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-cripto01',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto01\cripto01.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n  <ion-content padding>\n  <div class=\'center\'>\n    ETAPA 1: Escreva uma mensagem utilizando o alfabeto abaixo.\n    <ion-card>\n      <img src="assets/imgs/alfabeto-numero.png">\n      <ion-card-header>\n        ESSE ALFABETO POSSUI 32 CARACTERES\n      </ion-card-header>\n    </ion-card>\n    MENSAGEM ORIGINAL\n    <ion-input type="text" placeholder="Digite aqui sua mensagem" [(ngModel)]="inputMensagem"></ion-input>\n    <button ion-button outline (click)="avancaCripto02()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto01\cripto01.html"*/,
+            selector: 'page-cripto01',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto01\cripto01.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n  <ion-content padding>\n  <div class=\'center\'>\n    ETAPA 1: Escreva uma mensagem utilizando o alfabeto abaixo..\n    <ion-card>\n      <img src="assets/imgs/alfabeto-numero.png">\n      <ion-card-header>\n        ESSE ALFABETO POSSUI 32 CARACTERES\n      </ion-card-header>\n    </ion-card>\n    MENSAGEM ORIGINAL\n    <ion-input type="text" placeholder="Digite aqui sua mensagem" [(ngModel)]="inputMensagem"></ion-input>\n    <button ion-button outline (click)="avancaCripto02()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto01\cripto01.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
     ], Cripto01Page);
@@ -109,14 +681,14 @@ var Cripto01Page = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 103:
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto02Page; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cripto03_cripto03__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cripto03_cripto03__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_matriz__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__ = __webpack_require__(47);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -226,7 +798,7 @@ var Cripto02Page = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 104:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -234,7 +806,7 @@ var Cripto02Page = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_matriz__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cripto04_cripto04__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cripto04_cripto04__ = __webpack_require__(102);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -293,587 +865,60 @@ var Cripto03Page = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 105:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto04Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cripto05_cripto05__ = __webpack_require__(106);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var Cripto04Page = /** @class */ (function () {
-    function Cripto04Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Cripto04Page.prototype.avancaCripto05 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__cripto05_cripto05__["a" /* Cripto05Page */]);
-    };
-    Cripto04Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Cripto04Page');
-    };
-    Cripto04Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-cripto04',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto04\cripto04.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <div class=\'center\'>\n    Verifique como fica o formato da mensagem em uma matriz 2xn: Matriz de letras da mensagem original:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    Matriz Numérica da mensagem original:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <button ion-button outline (click)="avancaCripto05()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto04\cripto04.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], Cripto04Page);
-    return Cripto04Page;
-}());
-
-//# sourceMappingURL=cripto04.js.map
-
-/***/ }),
-
-/***/ 106:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto05Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cripto06_cripto06__ = __webpack_require__(107);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the Cripto05Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Cripto05Page = /** @class */ (function () {
-    function Cripto05Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Cripto05Page.prototype.avancaCripto06 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__cripto06_cripto06__["a" /* Cripto06Page */]);
-    };
-    Cripto05Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Cripto05Page');
-    };
-    Cripto05Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-cripto05',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto05\cripto05.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon></button>\n  </ion-fab>\n\n  <div class=\'center\'>\n     ETAPA 4: Calcule o produto da matriz chave oela matriz da mensagem Original.\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    Matriz Numérica da mensagem original:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n  <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n  <button ion-button outline (click)="avancaCripto06()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto05\cripto05.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], Cripto05Page);
-    return Cripto05Page;
-}());
-
-//# sourceMappingURL=cripto05.js.map
-
-/***/ }),
-
-/***/ 107:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto06Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cripto07_cripto07__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var Cripto06Page = /** @class */ (function () {
-    function Cripto06Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Cripto06Page.prototype.avancaCripto07 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__cripto07_cripto07__["a" /* Cripto07Page */]);
-    };
-    Cripto06Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Cripto06Page');
-    };
-    Cripto06Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-cripto06',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto06\cripto06.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 5: Calcule a matriz de congruentes da matriz produto na base 32.\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    A matriz produto congruente é:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto07()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaCripto07()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto06\cripto06.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
-    ], Cripto06Page);
-    return Cripto06Page;
-}());
-
-//# sourceMappingURL=cripto06.js.map
-
-/***/ }),
-
-/***/ 108:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cripto07Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var Cripto07Page = /** @class */ (function () {
-    function Cripto07Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Cripto07Page.prototype.avancaInicio = function () {
-        this.navCtrl.popToRoot();
-    };
-    Cripto07Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Cripto07Page');
-    };
-    Cripto07Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-cripto07',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto07\cripto07.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right bottom>\n    <button ion-fab mini>\n      <ion-icon name="logo-whatsapp"></ion-icon>\n    </button>\n  </ion-fab>\n  <div class=\'center\'>\n    ETAPA 1: Substitua valores numéericos pelas respectivas letras do alfabeto:\n    <ion-card>\n      <img src="assets/imgs/alfabeto-numero.png">\n      <ion-card-header>\n        PARA CADA NÚMERO UMA LETRA CORRESPONDENTE\n      </ion-card-header>\n    </ion-card>\n<ion-grid>\n  <ion-row>\n    <ion-col col-2>10</ion-col>\n    <ion-col col-2>10</ion-col>\n  </ion-row>\n  <ion-row>\n    <ion-col col-2>10</ion-col>\n    <ion-col col-2>10</ion-col>\n  </ion-row>\n</ion-grid>\n    <button ion-button outline round (click)="avancaCripto07()">Validar Resposta</button>\n    <ion-label>  A mensagem original é:  <!-- {{ product.name }} --> </ion-label>\n  <ion-label>  A mensagem cifrada é:  <!-- {{ product.name }} --> </ion-label>\n    <ion-input type="text" placeholder="Nome do arquivo:"></ion-input>\n  \n    <button ion-button  outline (click)="buttonClick()">SALVAR ARQUIVO</button>\n    <button ion-button outline (click)=" avancaInicio()">CONCLUIR</button>\n  \n\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\cripto07\cripto07.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], Cripto07Page);
-    return Cripto07Page;
-}());
-
-//# sourceMappingURL=cripto07.js.map
-
-/***/ }),
-
-/***/ 109:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto01Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto02_decripto02__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var Decripto01Page = /** @class */ (function () {
-    function Decripto01Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Decripto01Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Decripto01Page');
-    };
-    Decripto01Page.prototype.avancaDecripto02 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto02_decripto02__["a" /* Decripto02Page */]);
-    };
-    Decripto01Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-decripto01',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto01\decripto01.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <div class=\'center\'>\n    ETAPA 1: Obtenha a mensagem criptofagada e a matriz chave pública, em seguida calcule o determinante da matriz inversa.\n\n    <!-- *************************************************************************** -->\n    <ion-card>\n      <ion-card-header>\n        Escolha um arquivo:\n      </ion-card-header>\n      <ion-item>\n        <ion-label>{{nome}}</ion-label>\n        <button ion-button item-end round outline (click)="buttonClick()">\n          <ion-icon name="search"></ion-icon>\n        </button>\n        <button ion-button item-end round outline (click)="buttonClick()">\n          <ion-icon name="trash"></ion-icon>\n        </button>\n      </ion-item>\n    </ion-card>\n\n    <!-- ********************************************************************************************* -->\n\n    A matriz chave Pública é:\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-item>\n      <ion-label>A mensagem criptografada é:</ion-label>\n      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>\n    </ion-item>\n\n    <button ion-button outline round color="danger" (click)="avancaCripto02()">ESSCOLHA OUTRO ARQUIVO</button>\n\n    <ion-item>\n      <ion-label>Determinante:</ion-label>\n      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>\n      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>\n      <button ion-button item-end round outline (click)="buttonClick()">\n        <ion-icon name="information-circle"></ion-icon>\n      </button>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Congruente:</ion-label>\n      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>\n      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>\n      <button ion-button item-end round outline (click)="buttonClick()">\n        <ion-icon name="information-circle"></ion-icon>\n      </button>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Det. Matriz inversa:</ion-label>\n      <ion-input type="text" [(ngModel)]="determinanteUsuario"></ion-input>\n      <button ion-button item-end round outline (click)="buttonClick()">Validar</button>\n      <button ion-button item-end round outline (click)="buttonClick()">\n        <ion-icon name="information-circle"></ion-icon>\n      </button>\n    </ion-item>\n    <button ion-button outline (click)="avancaDecripto02()"> Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto01\decripto01.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
-    ], Decripto01Page);
-    return Decripto01Page;
-}());
-
-//# sourceMappingURL=decripto01.js.map
-
-/***/ }),
-
-/***/ 110:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto02Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto03_decripto03__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the Decripto02Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Decripto02Page = /** @class */ (function () {
-    function Decripto02Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Decripto02Page.prototype.avancaDecripto03 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto03_decripto03__["a" /* Decripto03Page */]);
-    };
-    Decripto02Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Decripto02Page');
-    };
-    Decripto02Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-decripto02',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto02\decripto02.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 2: CALCULANDO A CHAVE PRIVADA - Calcule a matriz de cofatores.\n    <ion-label>A matriz CHAVE PÚBLICA é:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>Insira a matriz de cofatores:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto03()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto02\decripto02.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
-    ], Decripto02Page);
-    return Decripto02Page;
-}());
-
-//# sourceMappingURL=decripto02.js.map
-
-/***/ }),
-
-/***/ 111:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto03Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto04_decripto04__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the Decripto03Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Decripto03Page = /** @class */ (function () {
-    function Decripto03Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Decripto03Page.prototype.avancaDecripto04 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto04_decripto04__["a" /* Decripto04Page */]);
-    };
-    Decripto03Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Decripto03Page');
-    };
-    Decripto03Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-decripto03',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto03\decripto03.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 3: CALCULANDO A CHAVE PRIVADA -\n    <ion-label>Essa é a matriz de COFATORES:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>Insira a matriz de TRANSPOSTA:</ion-label>\n    <ion-label>Essa é a matriz Adjunta da matriz de Cofatores:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto04()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto03\decripto03.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
-    ], Decripto03Page);
-    return Decripto03Page;
-}());
-
-//# sourceMappingURL=decripto03.js.map
-
-/***/ }),
-
-/***/ 112:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto04Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto05_decripto05__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the Decripto04Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Decripto04Page = /** @class */ (function () {
-    function Decripto04Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Decripto04Page.prototype.avancaDecripto05 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto05_decripto05__["a" /* Decripto05Page */]);
-    };
-    Decripto04Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Decripto04Page');
-    };
-    Decripto04Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-decripto04',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto04\decripto04.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 4: CALCULANDO A CHAVE PRIVADA -\n    <ion-label>Multiplique o determinante da inversa pela Matriz Adjunta:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>Calcule a Matriz CHAVE PRIVADA:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto05()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto04\decripto04.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
-    ], Decripto04Page);
-    return Decripto04Page;
-}());
-
-//# sourceMappingURL=decripto04.js.map
-
-/***/ }),
-
-/***/ 113:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto05Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto06_decripto06__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the Decripto05Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Decripto05Page = /** @class */ (function () {
-    function Decripto05Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Decripto05Page.prototype.avancaDecripto06 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto06_decripto06__["a" /* Decripto06Page */]);
-    };
-    Decripto05Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Decripto05Page');
-    };
-    Decripto05Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-decripto05',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto05\decripto05.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 5: Calcule os coongruentes da matriz chave privada\n    <ion-label>MATRIZ CHAVE PRIVADA</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>insira a matriz CONGRUENTE:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto06()">Proxima etapa</button>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto05\decripto05.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
-    ], Decripto05Page);
-    return Decripto05Page;
-}());
-
-//# sourceMappingURL=decripto05.js.map
-
-/***/ }),
-
-/***/ 114:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto06Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto07_decripto07__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the Decripto06Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Decripto06Page = /** @class */ (function () {
-    function Decripto06Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Decripto06Page.prototype.avancaDecripto07 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto07_decripto07__["a" /* Decripto07Page */]);
-    };
-    Decripto06Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Decripto06Page');
-    };
-    Decripto06Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-decripto06',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto06\decripto06.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 5.1: Multiplique a matriz chave privada pela matriz mensagem criptografada\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>A matriz DECIFRADA é:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto07()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto06\decripto06.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
-    ], Decripto06Page);
-    return Decripto06Page;
-}());
-
-//# sourceMappingURL=decripto06.js.map
-
-/***/ }),
-
-/***/ 115:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto07Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decripto08_decripto08__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the Decripto07Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Decripto07Page = /** @class */ (function () {
-    function Decripto07Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Decripto07Page.prototype.avancaDecripto08 = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__decripto08_decripto08__["a" /* Decripto08Page */]);
-    };
-    Decripto07Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Decripto07Page');
-    };
-    Decripto07Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-decripto07',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto07\decripto07.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right top>\n    <button ion-fab mini>\n      <ion-icon name="information-circle"></ion-icon>\n    </button>\n  </ion-fab>\n\n  <div class=\'center\'>\n    ETAPA 6: Calcule os coongruentes da MATRIZ DECIFRADA\n    <ion-label>MATRIZ DECIFRADA</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n\n    <ion-label>insira a matriz CONGRUENTE:</ion-label>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto06()">Validar Resposta</button>\n    <button ion-button outline (click)="avancaDecripto08()">Proxima etapa</button>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto07\decripto07.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
-    ], Decripto07Page);
-    return Decripto07Page;
-}());
-
-//# sourceMappingURL=decripto07.js.map
-
-/***/ }),
-
-/***/ 116:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Decripto08Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the Decripto08Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Decripto08Page = /** @class */ (function () {
-    function Decripto08Page(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Decripto08Page.prototype.avancaInicio = function () {
-        this.navCtrl.popToRoot();
-    };
-    Decripto08Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Decripto08Page');
-    };
-    Decripto08Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-decripto08',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto08\decripto08.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n  <ion-fab right bottom>\n    <button ion-fab mini>\n      <ion-icon name="logo-whatsapp"></ion-icon>\n    </button>\n  </ion-fab>\n  <div class=\'center\'>\n    ETAPA 7: Substitua valores numéericos pelas respectivas letras do alfabeto:\n    <ion-card>\n      <img src="assets/imgs/alfabeto-numero.png">\n      <ion-card-header>\n        PARA CADA NÚMERO UMA LETRA CORRESPONDENTE\n      </ion-card-header>\n    </ion-card>\n    A matriz de letras da mensagem DECIFRADA é:\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-2>10</ion-col>\n        <ion-col col-2>10</ion-col>\n      </ion-row>\n    </ion-grid>\n    <button ion-button outline round (click)="avancaCripto07()">Validar Resposta</button>\n    <ion-label> A mensagem Cifrada foi:\n      <!-- {{ product.name }} -->\n    </ion-label>\n    <ion-label> A mensagem Decifrada:\n      <!-- {{ product.name }} -->\n    </ion-label>\n      <button ion-button outline (click)=" avancaInicio()">CONCLUIR</button>\n\n\n  </div>\n</ion-content>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\decripto08\decripto08.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], Decripto08Page);
-    return Decripto08Page;
-}());
-
-//# sourceMappingURL=decripto08.js.map
-
-/***/ }),
-
 /***/ 117:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SobrePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the SobrePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var SobrePage = /** @class */ (function () {
+    function SobrePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    SobrePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SobrePage');
+    };
+    SobrePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-sobre',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\sobre\sobre.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n<h1>\n  <strong>SOBRE</strong>\n</h1>\n<p style="text-align: justify;">O criptomatica &eacute; futo de um projeto de conclus&atilde;o do curso de p&oacute;s-gradua&ccedil;&atilde;o em engenharia\n  de software, realizado na Facape (2017-2018). Este aplicativo educacional tem como foco trazer conte&uacute;dos matematicos\n  vistos no ensino m&eacute;dio, como matrizes e determinates, algebra modular, inversos modulares; aplicados &aacute; tem&aacute;tica\n  da criptografia de Hill. O maior intuito &eacute; apoiar e incentivar com essa ferramenta, o ensino e aprendizagem da Matem&aacute;tica.</p>\n<p>&nbsp;</p>\n<p>P&oacute;s-graduado: Michel Ferreira Batista</p>\n<p>Orientador: Dr. Ricardo Argenton Ramos</p>\n<p>&nbsp;</p>\n    <img src="assets/imgs/sobre1.png">\n        <img src="assets/imgs/sobre2.png">\n\n</ion-content>\n'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\sobre\sobre.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], SobrePage);
+    return SobrePage;
+}());
+
+//# sourceMappingURL=sobre.js.map
+
+/***/ }),
+
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InicioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cripto01_cripto01__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__decripto01_decripto01__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cripto01_cripto01__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__decripto01_decripto01__ = __webpack_require__(106);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -923,51 +968,6 @@ var InicioPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 118:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SobrePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the SobrePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var SobrePage = /** @class */ (function () {
-    function SobrePage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    SobrePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SobrePage');
-    };
-    SobrePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-sobre',template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\pages\sobre\sobre.html"*/'<ion-header>\n  <meu-cabecalho>\n  </meu-cabecalho>\n</ion-header>\n\n<ion-content padding>\n<h1>\n  <strong>SOBRE</strong>\n</h1>\n<p style="text-align: justify;">O criptomatica &eacute; futo de um projeto de conclus&atilde;o do curso de p&oacute;s-gradua&ccedil;&atilde;o em engenharia\n  de software, realizado na Facape (2017-2018). Este aplicativo educacional tem como foco trazer conte&uacute;dos matematicos\n  vistos no ensino m&eacute;dio, como matrizes e determinates, algebra modular, inversos modulares; aplicados &aacute; tem&aacute;tica\n  da criptografia de Hill. O maior intuito &eacute; apoiar e incentivar com essa ferramenta, o ensino e aprendizagem da Matem&aacute;tica.</p>\n<p>&nbsp;</p>\n<p>P&oacute;s-graduado: Michel Ferreira Batista</p>\n<p>Orientador: Dr. Ricardo Argenton Ramos</p>\n<p>&nbsp;</p>\n    <img src="assets/imgs/sobre1.png">\n        <img src="assets/imgs/sobre2.png">\n\n</ion-content>\n'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\pages\sobre\sobre.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], SobrePage);
-    return SobrePage;
-}());
-
-//# sourceMappingURL=sobre.js.map
-
-/***/ }),
-
 /***/ 128:
 /***/ (function(module, exports) {
 
@@ -990,87 +990,87 @@ webpackEmptyAsyncContext.id = 128;
 
 var map = {
 	"../pages/cripto01/cripto01.module": [
-		290,
+		304,
 		20
 	],
 	"../pages/cripto02/cripto02.module": [
-		291,
+		305,
 		19
 	],
 	"../pages/cripto03/cripto03.module": [
-		292,
+		309,
 		18
 	],
 	"../pages/cripto04/cripto04.module": [
-		293,
+		290,
 		17
 	],
 	"../pages/cripto05/cripto05.module": [
-		294,
+		291,
 		16
 	],
 	"../pages/cripto06/cripto06.module": [
-		295,
+		292,
 		15
 	],
 	"../pages/cripto07/cripto07.module": [
-		296,
+		293,
 		14
 	],
 	"../pages/decripto01/decripto01.module": [
-		297,
+		294,
 		13
 	],
 	"../pages/decripto02/decripto02.module": [
-		298,
+		295,
 		12
 	],
 	"../pages/decripto03/decripto03.module": [
-		299,
+		296,
 		11
 	],
 	"../pages/decripto04/decripto04.module": [
-		300,
+		297,
 		10
 	],
 	"../pages/decripto05/decripto05.module": [
-		301,
+		298,
 		9
 	],
 	"../pages/decripto06/decripto06.module": [
-		302,
+		299,
 		8
 	],
 	"../pages/decripto07/decripto07.module": [
-		303,
+		300,
 		7
 	],
 	"../pages/decripto08/decripto08.module": [
-		310,
+		301,
 		6
 	],
 	"../pages/determinante/determinante.module": [
-		304,
+		303,
 		5
 	],
 	"../pages/hill/hill.module": [
-		305,
+		302,
 		4
 	],
 	"../pages/inicio/inicio.module": [
-		306,
+		310,
 		3
 	],
 	"../pages/mdc/mdc.module": [
-		307,
+		306,
 		2
 	],
 	"../pages/primos/primos.module": [
-		308,
+		307,
 		1
 	],
 	"../pages/sobre/sobre.module": [
-		309,
+		308,
 		0
 	]
 };
@@ -1245,32 +1245,32 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_hill_hill__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_decripto02_decripto02__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_decripto01_decripto01__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_cripto07_cripto07__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_cripto06_cripto06__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_cripto05_cripto05__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_cripto03_cripto03__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_cripto02_cripto02__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_cripto01_cripto01__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_inicio_inicio__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_decripto02_decripto02__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_decripto01_decripto01__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_cripto07_cripto07__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_cripto06_cripto06__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_cripto05_cripto05__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_cripto03_cripto03__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_cripto02_cripto02__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_cripto01_cripto01__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_inicio_inicio__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__app_component__ = __webpack_require__(281);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_cripto04_cripto04__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_decripto03_decripto03__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_decripto04_decripto04__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_decripto05_decripto05__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_decripto06_decripto06__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_decripto07_decripto07__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_decripto08_decripto08__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_cripto04_cripto04__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_decripto03_decripto03__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_decripto04_decripto04__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_decripto05_decripto05__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_decripto06_decripto06__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_decripto07_decripto07__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_decripto08_decripto08__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_primos_primos__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_mdc_mdc__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_determinante_determinante__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_sobre_sobre__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_sobre_sobre__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__model_matriz__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_meu_cabecalho_meu_cabecalho__ = __webpack_require__(289);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1342,9 +1342,6 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_12_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_13__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/cripto01/cripto01.module#Cripto01PageModule', name: 'Cripto01Page', segment: 'cripto01', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/cripto02/cripto02.module#Cripto02PageModule', name: 'Cripto02Page', segment: 'cripto02', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/cripto03/cripto03.module#Cripto03PageModule', name: 'Cripto03Page', segment: 'cripto03', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cripto04/cripto04.module#Cripto04PageModule', name: 'Cripto04Page', segment: 'cripto04', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cripto05/cripto05.module#Cripto05PageModule', name: 'Cripto05Page', segment: 'cripto05', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cripto06/cripto06.module#Cripto06PageModule', name: 'Cripto06Page', segment: 'cripto06', priority: 'low', defaultHistory: [] },
@@ -1356,13 +1353,16 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/decripto05/decripto05.module#Decripto05PageModule', name: 'Decripto05Page', segment: 'decripto05', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/decripto06/decripto06.module#Decripto06PageModule', name: 'Decripto06Page', segment: 'decripto06', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/decripto07/decripto07.module#Decripto07PageModule', name: 'Decripto07Page', segment: 'decripto07', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/determinante/determinante.module#DeterminantePageModule', name: 'DeterminantePage', segment: 'determinante', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/decripto08/decripto08.module#Decripto08PageModule', name: 'Decripto08Page', segment: 'decripto08', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/hill/hill.module#HillPageModule', name: 'HillPage', segment: 'hill', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/determinante/determinante.module#DeterminantePageModule', name: 'DeterminantePage', segment: 'determinante', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cripto01/cripto01.module#Cripto01PageModule', name: 'Cripto01Page', segment: 'cripto01', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cripto02/cripto02.module#Cripto02PageModule', name: 'Cripto02Page', segment: 'cripto02', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mdc/mdc.module#MdcPageModule', name: 'MdcPage', segment: 'mdc', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/primos/primos.module#PrimosPageModule', name: 'PrimosPage', segment: 'primos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/sobre/sobre.module#SobrePageModule', name: 'SobrePage', segment: 'sobre', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/decripto08/decripto08.module#Decripto08PageModule', name: 'Decripto08Page', segment: 'decripto08', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/cripto03/cripto03.module#Cripto03PageModule', name: 'Cripto03Page', segment: 'cripto03', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] }
                     ]
                 }),
             ],
@@ -1413,9 +1413,9 @@ var AppModule = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_sobre_sobre__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_sobre_sobre__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_hill_hill__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_inicio_inicio__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_inicio_inicio__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(208);
@@ -1470,7 +1470,7 @@ var MyApp = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <div class=\'center\'>\n      <img src="assets/imgs/menu.png">\n      </div>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <!-- <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button> -->\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        <ion-icon [name]="p.icon" item-left></ion-icon>\n         {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\PROJETOS\IONIC\criptomatica\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <div class=\'center\'>\n      <img src="assets/imgs/menu.png">\n      </div>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <!-- <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n        ss\n      </button> -->\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        <ion-icon [name]="p.icon" item-left></ion-icon>\n         {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"D:\PROJETOS\IONIC\criptomatica\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
